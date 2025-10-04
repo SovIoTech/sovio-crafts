@@ -26,7 +26,8 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="text-center lg:text-left space-y-6 lg:space-y-8">
-            <div className="inline-block animate-fade-in">
+            <div className="relative inline-block animate-fade-in">
+              <div className="absolute -left-4 -top-4 w-16 h-16 border-2 border-primary/30 rounded-lg -z-10" />
               <span className="text-primary font-semibold text-sm md:text-base tracking-wider uppercase">
                 Welcome to my Portfolio
               </span>
