@@ -1,4 +1,4 @@
-import { GraduationCap, Briefcase } from "lucide-react";
+import { Briefcase } from "lucide-react";
 import { Card } from "@/components/ui/card";
 
 const About = () => {
@@ -24,16 +24,18 @@ const About = () => {
               <Card className="p-6 border-primary/20 hover:border-primary/40 transition-all duration-300 hover:shadow-card bg-card">
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-primary/10 rounded-lg">
-                    <GraduationCap className="w-6 h-6 text-primary" />
+                    <Briefcase className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-2">Education</h3>
+                    <h3 className="font-semibold text-lg mb-2">Freelance IoT Engineer</h3>
                     <p className="text-foreground/70">
-                      <span className="font-medium">BS Electrical Engineering</span>
+                      <span className="font-medium">5+ years</span>
                       <br />
-                      PIEAS University, Islamabad
+                      Platforms including Upwork
                       <br />
-                      2020 – 2024
+                      <span className="text-sm mt-2 block">
+                        Helping businesses and startups turn ideas into working IoT and automation solutions
+                      </span>
                     </p>
                   </div>
                 </div>
@@ -45,15 +47,15 @@ const About = () => {
                     <Briefcase className="w-6 h-6 text-primary" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-lg mb-2">Experience</h3>
+                    <h3 className="font-semibold text-lg mb-2">Industrial Automation Engineer</h3>
                     <p className="text-foreground/70">
-                      <span className="font-medium">Industrial Automation Engineer</span>
+                      <span className="font-medium">2 years</span>
                       <br />
-                      2 years at reputed Islamabad company
+                      Reputed Islamabad company
                       <br />
-                      <span className="font-medium mt-2 block">Freelance IoT Engineer</span>
-                      <br />
-                      5+ years on platforms including Upwork
+                      <span className="text-sm mt-2 block">
+                        Specialized in PLCs, custom controllers, and secure offline automation systems
+                      </span>
                     </p>
                   </div>
                 </div>
